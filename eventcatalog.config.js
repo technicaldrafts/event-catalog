@@ -1,10 +1,10 @@
 module.exports = {
   basePath: '/event-catalog',
-  title: 'EventCatalog',
+  title: 'Technical Drafts',
   tagline: 'Discover, Explore and Document your Event Driven Architectures',
-  organizationName: 'Your Company',
+  organizationName: 'Technical Drafts',
   projectName: 'Event Catalog',
-  editUrl: 'https://github.com/boyney123/eventcatalog-demo/edit/master',
+  editUrl: 'https://github.com/technicaldrafts/event-catalog/edit/main',
   trailingSlash: true,
   primaryCTA: {
     label: 'Explore Events',
@@ -12,12 +12,12 @@ module.exports = {
   },
   secondaryCTA: {
     label: 'Getting Started',
-    href:"https://www.eventcatalog.dev/"
+    href:"https://github.com/technicaldrafts/event-catalog"
   },
   logo: {
     alt: 'EventCatalog Logo',
     // found in the public dir
-    src: 'logo.svg',
+    src: 'logo.png',
   },
   headerLinks: [
     { label: 'Events', href: '/events'},
@@ -32,7 +32,7 @@ module.exports = {
     { label: 'Services', href: '/services' },
     { label: 'Visualiser', href: '/visualiser' },
     { label: '3D Node Graph', href: '/overview' },
-    { label: 'GitHub', href: 'https://github.com/boyney123/eventcatalog-demo/edit/master' }
+    { label: 'GitHub', href: 'https://github.com/technicaldrafts/event-catalog/edit/main' }
   ],
   users: [
     {
@@ -42,9 +42,9 @@ module.exports = {
       role: 'Developer',
     },
     {
-      id: 'mSmith',
-      name: 'Matthew Smith',
-      avatarUrl: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      id: 'ciromiranda',
+      name: 'Ciro Miranda',
+      avatarUrl: 'https://s.gravatar.com/avatar/f348ae5292bf75fa305d1a3bf542b6da?s=80&r=x',
       role: 'Developer',
     },
   ],
