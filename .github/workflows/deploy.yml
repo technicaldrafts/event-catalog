@@ -27,7 +27,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with npm
-        run: npm build
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
